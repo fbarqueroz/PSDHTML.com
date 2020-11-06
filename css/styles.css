@@ -52,4 +52,30 @@ p {
 .header_list a {
     text-decoration: none;
     color: #888888;
+    background: none;
+}
+
+/*nesletter*/
+
+.newsletter {
+    padding-bottom: 72px;
+}
+
+.newsletter_content a {
+    color: #40ACEB;
+}
+
+.newsletter_button {
+    background-color: #7BB84F;
+    width: 134px;
+    height: 36px;
+    text-align: center;
+    border-radius: 2px;
+    margin-left: 232px;
+}
+
+.newsletter_button a {
+    text-decoration: none;
+    color: white;
+    font-size: 13px;
 }
