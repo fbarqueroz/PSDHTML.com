@@ -7,6 +7,7 @@
 .container {
     max-width: 600px;
     margin: 0 auto;
+    background-color: #F9F9F9;
 }
 
 body{
@@ -16,11 +17,21 @@ body{
 h2 {
     color: #292C34;
     font-size: 34px;
+    font-weight: lighter;
+    text-align: center;
 }
 
 p {
     color: #888888;
     font-size: 16px;
+    text-align: center;
+}
+
+.header_logo {
+    font-size: 16px;
+    color: #606060;
+    font-weight: bold;
+    padding-top: 30px;
 }
 
 .header_list {
