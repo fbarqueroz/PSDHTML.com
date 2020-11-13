@@ -4,10 +4,15 @@
     margin: 0 auto;
 }
 
+.wrapper_main {
+    background-color: #F9F9F9;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
 .container {
     max-width: 600px;
     margin: 0 auto;
-    background-color: #F9F9F9;
 }
 
 body{
@@ -72,10 +77,35 @@ p {
     text-align: center;
     border-radius: 2px;
     margin-left: 232px;
+    margin-top: 35px;
 }
 
 .newsletter_button a {
     text-decoration: none;
     color: white;
     font-size: 13px;
+    margin-top: 14px;
+}
+
+/*Free book*/
+
+.free_book_content a {
+    color: #40ACEB;
+}
+
+.free_book_button {
+    background-color: #F5BA1C;
+    width: 134px;
+    height: 36px;
+    text-align: center;
+    border-radius: 2px;
+    margin-left: 232px;
+    margin-top: 35px;
+}
+
+.free_book_button a {
+    text-decoration: none;
+    color: white;
+    font-size: 13px;
+    margin-top: 14px;
 }
