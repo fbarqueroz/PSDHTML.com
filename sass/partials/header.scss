@@ -1,0 +1,27 @@
+.header_logo {
+    font-size: 16px;
+    color: #606060;
+    font-weight: bold;
+    padding-top: 30px;
+}
+
+.header_list {
+    font-size: 13px;
+    float: right;
+    margin-bottom: 25px;
+
+    li {
+        list-style: none;
+        float: left;
+    }
+
+    li + li {
+        margin-left: 25px;
+    }
+
+    a {
+        text-decoration: none;
+        color: #888888;
+        background: none;
+    }
+}
