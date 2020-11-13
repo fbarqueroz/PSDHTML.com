@@ -36,3 +36,18 @@
     color: white;
     font-size: 13px;
     margin-top: 14px; }
+
+/*Our Newroom*/
+.our_newroom_button {
+  background-color: #40ACEB;
+  width: 134px;
+  height: 36px;
+  text-align: center;
+  border-radius: 2px;
+  margin-left: 232px;
+  margin-top: 35px; }
+  .our_newroom_button a {
+    text-decoration: none;
+    color: white;
+    font-size: 13px;
+    margin-top: 14px; }
