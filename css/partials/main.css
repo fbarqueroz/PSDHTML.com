@@ -38,6 +38,14 @@
     margin-top: 14px; }
 
 /*Our Newroom*/
+.our_newroom p {
+  height: 300px;
+  width: 300px; }
+
+.our_newroom img {
+  height: 200px;
+  width: 300px; }
+
 .our_newroom_button {
   background-color: #40ACEB;
   width: 134px;
