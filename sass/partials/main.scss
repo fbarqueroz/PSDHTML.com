@@ -38,12 +38,43 @@
     img {
         height: 200px;
         width: 300px;
+        display: block;
     }
 }
 
 .our_newroom_muckup {
     p {
         background-color: #0071BD;
+        float: right;
+        margin: 0 0 0 0;
+    }
+}
+
+.our_newroom_leader1 {
+    p {
+        background-color: #A4D3F3;
+        float: left;
+        margin:  0 0 0 0;
+    }
+}
+
+.our_newroom_magazine {
+    p {
+        background-color: #333C4D;
+        float: right;
+        margin: 0 0 0 0;
+    }
+}
+
+.our_newroom_leader2 {
+    p {
+        background-color: #76B3DD;
+        margin: 0 0 0 0;
+    }
+
+    img {
+        float: right;
+        display: block;
     }
 }
 

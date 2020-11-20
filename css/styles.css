@@ -1,3 +1,5 @@
+/*Colors*/
+/*Button*/
 .wrapper {
   max-width: 800px;
   background-color: #EAECED;
@@ -91,13 +93,37 @@ p {
     margin-top: 14px; }
 
 /*Our Newroom*/
-.our_newroom p {
+.our_newroom_content p {
   height: 300px;
-  width: 300px; }
+  width: 300px;
+  font-family: 'Open Sans', sans-serif;
+  color: #FFFFFF; }
 
-.our_newroom img {
+.our_newroom_content img {
   height: 200px;
   width: 300px; }
+
+.our_newroom_muckup p {
+  background-color: #0071BD;
+  float: right;
+  margin: 0 0 0 0; }
+
+.our_newroom_leader1 p {
+  background-color: #A4D3F3;
+  float: left;
+  margin: 0 0 0 0; }
+
+.our_newroom_magazine p {
+  background-color: #333C4D;
+  float: right;
+  margin: 0 0 0 0; }
+
+.our_newroom_leader2 p {
+  background-color: #76B3DD;
+  margin: 0 0 0 0; }
+
+.our_newroom_leader2 img {
+  float: right; }
 
 .our_newroom_button {
   background-color: #40ACEB;
