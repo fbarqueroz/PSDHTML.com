@@ -5,9 +5,9 @@
 }
 
 .wrapper_main {
-    background-color: #F9F9F9;
     max-width: 600px;
     margin: 0 auto;
+    background-color: #F9F9F9;
 }
 
 .container {
@@ -27,6 +27,13 @@ body{
 
 h2 {
     color: #292C34;
+    font-size: 34px;
+    font-weight: lighter;
+    text-align: center;
+}
+
+h3 {
+    color: #F9F9F9;
     font-size: 34px;
     font-weight: lighter;
     text-align: center;

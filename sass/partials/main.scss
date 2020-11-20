@@ -6,7 +6,7 @@
 }
 
 .newsletter_content a {
-    color: $ancord_blue;
+    color: #40ACEB;
 }
 
 .newsletter_button {
@@ -81,4 +81,31 @@
 .our_newroom_button {
     background-color: #40ACEB;
     @include button;
+}
+
+/*Our Gallery*/
+
+.our_gallery {
+    background-color: #292C34;
+}
+
+.our_gallery_img {
+    padding-left: 40px;
+
+    img {
+        text-align: center;
+        width: 160px;
+        height: 160px;
+        padding: 5px;
+    }
+}
+
+
+.our_gallery_button {
+    background-color: #F9F9F9;
+    @include button
+}
+
+.our_gallery_button a {
+    color: black;
 }

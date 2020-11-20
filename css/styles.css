@@ -6,9 +6,9 @@
   margin: 0 auto; }
 
 .wrapper_main {
-  background-color: #F9F9F9;
   max-width: 600px;
-  margin: 0 auto; }
+  margin: 0 auto;
+  background-color: #F9F9F9; }
 
 .container {
   max-width: 600px;
@@ -24,6 +24,12 @@ body {
 
 h2 {
   color: #292C34;
+  font-size: 34px;
+  font-weight: lighter;
+  text-align: center; }
+
+h3 {
+  color: #F9F9F9;
   font-size: 34px;
   font-weight: lighter;
   text-align: center; }
@@ -70,9 +76,9 @@ p {
   margin-top: 35px; }
   .newsletter_button a {
     text-decoration: none;
-    color: white;
     font-size: 13px;
-    margin-top: 14px; }
+    margin-top: 14px;
+    color: white; }
 
 /*Free book*/
 .free_book_content a {
@@ -88,9 +94,9 @@ p {
   margin-top: 35px; }
   .free_book_button a {
     text-decoration: none;
-    color: white;
     font-size: 13px;
-    margin-top: 14px; }
+    margin-top: 14px;
+    color: white; }
 
 /*Our Newroom*/
 .our_newroom_content p {
@@ -101,7 +107,8 @@ p {
 
 .our_newroom_content img {
   height: 200px;
-  width: 300px; }
+  width: 300px;
+  display: block; }
 
 .our_newroom_muckup p {
   background-color: #0071BD;
@@ -123,7 +130,8 @@ p {
   margin: 0 0 0 0; }
 
 .our_newroom_leader2 img {
-  float: right; }
+  float: right;
+  display: block; }
 
 .our_newroom_button {
   background-color: #40ACEB;
@@ -135,6 +143,35 @@ p {
   margin-top: 35px; }
   .our_newroom_button a {
     text-decoration: none;
-    color: white;
     font-size: 13px;
-    margin-top: 14px; }
+    margin-top: 14px;
+    color: white; }
+
+/*Our Gallery*/
+.our_gallery {
+  background-color: #292C34; }
+
+.our_gallery_img {
+  padding-left: 40px; }
+  .our_gallery_img img {
+    text-align: center;
+    width: 160px;
+    height: 160px;
+    padding: 5px; }
+
+.our_gallery_button {
+  background-color: #F9F9F9;
+  width: 134px;
+  height: 36px;
+  text-align: center;
+  border-radius: 2px;
+  margin-left: 232px;
+  margin-top: 35px; }
+  .our_gallery_button a {
+    text-decoration: none;
+    font-size: 13px;
+    margin-top: 14px;
+    color: white; }
+
+.our_gallery_button a {
+  color: black; }
