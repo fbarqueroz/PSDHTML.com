@@ -1,0 +1,16 @@
+.footer {
+  background-color: #EAECED; }
+
+.footer_content {
+  float: left;
+  padding-top: 30px;
+  padding-left: 80px; }
+
+.footer_img {
+  float: right;
+  list-style: none;
+  padding-top: 30px;
+  width: 110px; }
+  .footer_img li + li {
+    float: left;
+    margin-left: 20px; }

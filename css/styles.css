@@ -149,7 +149,8 @@ p {
 
 /*Our Gallery*/
 .our_gallery {
-  background-color: #292C34; }
+  background-color: #292C34;
+  padding-bottom: 25px; }
 
 .our_gallery_img {
   padding-left: 40px; }
@@ -177,6 +178,9 @@ p {
   color: black; }
 
 /*Special Offer*/
+.special_offer_title {
+  padding-top: 40px; }
+
 .special_offer_button {
   width: 232px;
   height: 62px;
@@ -192,6 +196,9 @@ p {
     font-size: 13px;
     margin-top: 14px;
     color: white; }
+
+.footer {
+  background-color: #EAECED; }
 
 .footer_content {
   float: left;
