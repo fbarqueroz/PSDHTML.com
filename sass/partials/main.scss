@@ -2,7 +2,9 @@
 /*news letter*/
 
 .newsletter {
-    padding-bottom: 72px;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+    background-color: $containerColor;
 }
 
 .newsletter_content a {
@@ -16,6 +18,12 @@
 
 /*Free book*/
 
+.free_book {
+    margin-bottom: 30px;
+    padding-bottom: 15px;
+    background-color: $containerColor;
+}
+
 .free_book_content a {
     color: $ancord_blue;
 }
@@ -27,54 +35,31 @@
 
 /*Our Newroom*/
 
+.our_newroom {
+    background-color: $containerColor;
+    padding-bottom: 15px;
+}
+
 .our_newroom_content {
-    p {
-        height: 300px;
-        width: 300px;
-        font-family: 'Open Sans', sans-serif;
-        color: #FFFFFF;
-    }
-
     img {
-        height: 200px;
-        width: 300px;
-        display: block;
+    display: block;
+    height: 250px;
+    width: 300px;
     }
-}
 
-.our_newroom_muckup {
+    h5{
+        color: white;
+        margin: 0;
+        text-align: center;
+    }
+
     p {
-        background-color: #0071BD;
-        float: right;
-        margin: 0 0 0 0;
-    }
-}
-
-.our_newroom_leader1 {
-    p {
-        background-color: #A4D3F3;
-        float: left;
-        margin:  0 0 0 0;
-    }
-}
-
-.our_newroom_magazine {
-    p {
-        background-color: #333C4D;
-        float: right;
-        margin: 0 0 0 0;
-    }
-}
-
-.our_newroom_leader2 {
-    p {
-        background-color: #76B3DD;
-        margin: 0 0 0 0;
-    }
-
-    img {
-        float: right;
-        display: block;
+        text-align: center;
+        padding: 30px 20px 50px 40px;
+        line-height:1.25rem;
+        font-size: 0.875rem;
+        margin: 0;
+        color: white;
     }
 }
 
@@ -88,6 +73,7 @@
 .our_gallery {
     background-color: #292C34;
     padding-bottom: 25px;
+    padding-bottom: 15px;
 }
 
 .our_gallery_img {
@@ -113,8 +99,10 @@
 
 /*Special Offer*/
 
-.special_offer_title {
-    padding-top: 40px;
+.special_offer {
+    background-color: $containerColor;
+    margin-bottom: 30px;
+    padding-bottom: 15px;
 }
 
 .special_offer_button {
@@ -134,4 +122,32 @@
         margin-top: 14px;
         color: white;
     }
+}
+
+.left_column {
+    float: left;
+    width: 300px;
+}
+
+.right_column {
+    float: right;
+    width: 300px;
+}
+
+/*Muckup*/
+
+.muckup_p {
+    background-color: #76B3DD;
+}
+
+.magazine_p {
+    background-color: #76B3DD;
+}
+
+.leader1_p {
+    background-color: #0071BD;
+}
+
+.leader2_p {
+    background-color: #333C4D;
 }

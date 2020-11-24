@@ -1,22 +1,19 @@
 
 .footer {
-    background-color: #EAECED;
+    background-color: teal;
 }
 
 .footer_content {
     float: left;
     padding-top: 30px;
-    padding-left: 80px;
 }
 
 .footer_img {
     float: right;
     list-style: none;
-    padding-top: 30px;
-    width: 110px;
+    padding-top: 45px;
 
-    li + li {
-        float: left;
-        margin-left: 20px;
+    img + img {
+        margin-left: 5px;
     }
 }
